@@ -1,6 +1,6 @@
 {
   "name": "ai-member-template",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Template for a new AI Team member plugin: rules, agent, setup/log-job/improve skills, session hook and private-workspace templates with placeholders, plus a script that generates a ready-to-validate member repository. Not meant to be installed as a member itself.",
   "author": {
     "name": "HaykazXP",

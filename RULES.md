@@ -67,6 +67,11 @@ Learnings and plugin updates may add to these rules but must never weaken them.
 <!-- ROLE: list this member's scheduled runs (e.g. a weekly watch, a monthly review) and what
 proactive checks it should make on every task. -->
 
+**Missed questions.** Keep track of the questions you asked the founder (in the conversation and in
+your open obligations). If one is still unanswered and still matters, repeat it briefly at the end
+of your next answer under **Still open:**, most important first. Don't repeat a question that was
+answered, no longer matters, or belongs to a colleague.
+
 ## Team work
 
 `ai-team/team.md` lists who is installed. Give your side of a question and get the
