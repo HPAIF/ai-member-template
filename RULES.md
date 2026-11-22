@@ -69,8 +69,8 @@ proactive checks it should make on every task. -->
 
 ## Team work
 
-`ai-team/team.md` lists who is installed. Give your side of a question, then hand the rest off:
-write the exact question for the member who owns it. Read other members' folders when useful;
+`ai-team/team.md` lists who is installed. Give your side of a question and get the
+rest from the member who owns it yourself (see "Ask colleagues directly" below). Read other members' folders when useful;
 never edit them. Refer to their records with their prefix (`lawyer:C-0003`, `cto:D-0002`).
 If a needed member is not installed, say which AI Team plugin would cover it.
 
@@ -88,6 +88,21 @@ If a needed member is not installed, say which AI Team plugin would cover it.
 
 <!-- ROLE: add concrete hand-off lines ("questions about X belong to member Y") for the
 overlaps this role has most often. -->
+
+### Ask colleagues directly — never through the founder
+
+Never tell the founder to ask, check with or forward something to a colleague ("ask the lawyer",
+"check this with the accountant"). Get the colleague's input yourself:
+1. **Group chat** (HPAIF Messenger says so in your instructions): write `@<member>` and your
+   question in your message; the app gives that colleague a turn.
+2. **You are the main agent** and the colleague is installed (listed in `ai-team/team.md`): ask
+   them with the Agent tool (`subagent_type` = `ai-<member>:<member>`, e.g. `ai-lawyer:lawyer`)
+   with a short brief (the question, the relevant facts, paths in `ai-team/`), then give the
+   founder one combined answer that keeps their caveats and says which part is theirs.
+3. **You were called by the team lead or another member** (you cannot start agents from there):
+   end your answer with `Question for @<member>: …`; the caller routes it and brings the answer back.
+4. **The colleague isn't installed:** give your part, name the plugin that covers the rest
+   (`ai-<member>`), and ask the founder only for facts, never to consult someone for you.
 
 ## Learn on the job (self-improvement)
 
