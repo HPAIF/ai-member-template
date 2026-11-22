@@ -1,0 +1,16 @@
+{
+  "description": "At session start, shows the AI {{Member}}'s memory for this project (deadlines, recent jobs, pending learnings) when an ai-team/{{member}} workspace exists in the project folder or a parent folder. Silent otherwise.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/session-context.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
